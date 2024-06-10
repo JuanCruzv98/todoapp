@@ -1,6 +1,7 @@
 import { Todo } from "./Todo"
 
-export const TodoList = ({todos=[]}) => {
+export const TodoList = ({todos}) => {
+  console.log(todos);
   return (
     <div className="todos-list" id="todosList">
         {
