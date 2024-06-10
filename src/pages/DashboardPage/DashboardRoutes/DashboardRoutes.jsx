@@ -6,7 +6,7 @@ export const DashboardRoutes = () => {
     <>
         <Routes>
             <Route path="*" element={<DashboardPage/>}/>
-            <Route path="user" element={<UserPage/>}/>
+            <Route path="user/:uid" element={<UserPage/>}/>
         </Routes>
     </>
   )

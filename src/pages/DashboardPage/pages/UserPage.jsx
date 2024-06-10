@@ -1,5 +1,11 @@
+import { Navbar, Sidebar, TodosArea, TodosAreaUser } from "../../../components"
+ 
 export const UserPage = () => {
   return (
-    <div>UserPage</div>
+    <div className="container d-grid-2">
+      <Navbar/>
+      <Sidebar/>
+      <TodosAreaUser/>
+    </div>
   )
 }
